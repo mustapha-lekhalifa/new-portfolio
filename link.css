@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #39A2A4;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left, .right {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: #39A2A4;
+    color: white;
+    flex: 1;
+}
+
+.left h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+}
+
+.logo {
+    position: absolute;
+    bottom: 40px;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: auto;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 300px;
+}
+
+.login-box h2 {
+    margin: 0 0 20px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-box input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-forgot a {
+    color: #39A2A4;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #39A2A4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d8283;
+}
